@@ -45,7 +45,7 @@ const InputFloatingLabel = props => {
           paddingVertical: 10,
           paddingHorizontal: 1,
           color: '#000',
-          borderColor: 'red',
+          borderBottomColor: isFocused ? 'blue':'gray',
         }}
         value={textValue}
         onChangeText={text => setTextValue(text)}
